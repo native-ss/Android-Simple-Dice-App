@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/dice_black"
+            android:onClick="diceClickBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/dice_black_1"
+            android:contentDescription="@string/black_dice"
+            android:padding="@dimen/settings_dice_padding"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true" />
+
+        <ImageView
+            android:onClick="diceClickWhite"
+            android:id="@+id/dice_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/dice_white_2"
+            android:contentDescription="@string/white_dice"
+            android:padding="@dimen/settings_dice_padding"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:onClick="diceClickRed"
+            android:id="@+id/dice_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/dice_red_3"
+            android:contentDescription="@string/red_dice"
+            android:padding="@dimen/settings_dice_padding"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true" />
+
+        <ImageView
+            android:onClick="diceClickGold"
+            android:id="@+id/dice_gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/dice_gold_4"
+            android:contentDescription="@string/gold_dice"
+            android:padding="@dimen/settings_dice_padding"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true" />
+    </TableRow>
+</TableLayout>

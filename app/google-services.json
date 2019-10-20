@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "499054315316",
+    "firebase_url": "https://other-apps-1f1d6.firebaseio.com",
+    "project_id": "other-apps-1f1d6",
+    "storage_bucket": "other-apps-1f1d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499054315316:android:def300fce50326a1",
+        "android_client_info": {
+          "package_name": "com.davidelmasllari.dice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499054315316-eoah312e5b5qacv1dbvhp47j2t3ahm74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv_a7pGtoa6LM2-IcRaQE2lhUNtW7xwGQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499054315316:android:db83d57c2b830d29",
+        "android_client_info": {
+          "package_name": "com.gjc.gjendjacivile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499054315316-eoah312e5b5qacv1dbvhp47j2t3ahm74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv_a7pGtoa6LM2-IcRaQE2lhUNtW7xwGQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
